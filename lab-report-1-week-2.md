@@ -3,10 +3,13 @@
 ## Installing Vscode
 
 ```
-In order to install VSCode, simply go to the website and follow the instructions. This is how the Visual Studio Code menu looks like:
+In order to install VSCode, simply go to the website and follow the instructions. This is how the Visual Studio 
+Code menu looks like:
 ```
 
 ![](images/Screenshot(9).png)
+
+---
 
 ## Remotely Connecting
 
@@ -14,10 +17,13 @@ In order to install VSCode, simply go to the website and follow the instructions
 Do the ssh command with the following format:
 ssh cs15lsp22zz@ieng6.ucsd.edu
 In general, the text before the '@' is the user while the text after the '@' is the host server.
-Then, you will be prompted to enter a password. After successfully logging in, your screen may look like this:
+Then, you will be 
+prompted to enter a password. After successfully logging in, your screen may look like this:
 ```
 
 ![](images/unnamed1.png)
+
+---
 
 ## Trying Some Commands
 
@@ -51,9 +57,8 @@ This command makes a new directory.
 This command copies a file or folder.
 ```
 
----
 ```
-Ths screenshot showcases these different commands in action. What I did is:
+This screenshot showcases the different commands in action. What I did is:
 1. logged into host server
 2. made a new folder called test1
 3. showed the contents in the current directory
@@ -71,24 +76,35 @@ Ths screenshot showcases these different commands in action. What I did is:
 ## Moving Files with scp
 
 ```
-The scp command sends a copy of a file from the first user to the second user. You will first need to be logged into the account of the first user. The following screenshot shows logging in to the host server and running the WhereAmI program to show that the file has been copied and sent to the host server.
+The scp command sends a copy of a file from the first user to the second user. You will first need to be logged 
+into the account of the first user. The following screenshot shows logging in to the host server and running the 
+WhereAmI program to show that the file has been copied and sent 
+to the host server.
 ```
 
 ![](images/unnamed2.png)
 
+---
 
 ## Setting an SSH Key
 
 ```
-Enabling this feature allows you to not have to enter in a password every time you log into the host server using the ssh command. As shown here, logging in using the ssh command no longer requires a password:
+Enabling this feature allows you to not have to enter in a password every time you log into the host server using the ssh 
+command. As shown here, logging in using the ssh command no longer requires a password:
 ```
 
 ![](images/unnamed4.png)
 
+---
+
 ## Optimizing Remote Running
 
 ```
-Special techniques can be used in order to make remote running faster, through reducing the number of clicks or the runtime. For example, you can use semicolons to run multiple commands at once. You can also use quotations in order to run commands on a host server immediately after connecting to it. The following screenshot shows sending WhereAmI.java to the host server, logging in to the host server, and running the WhereAmI program all in one command.
+Special techniques can be used in order to make remote running faster, through reducing the number of clicks or 
+the runtime. For example, you can use semicolons to run multiple commands at once. You can also use quotations in 
+order to run commands on a host server immediately after connecting to it. The following screenshot shows 
+sending WhereAmI.java to the host server, logging in to the host server, and running the WhereAmI program all in 
+one command.
 ```
 
 ![](images/unnamed6.png)

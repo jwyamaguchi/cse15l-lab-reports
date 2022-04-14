@@ -2,8 +2,8 @@
 
 ## Installing Vscode
 
-> In order to install VSCode, simply go to [the VSCode website](https://code.visualstudio.com/Download) and follow the instructions. This is how the Visual Studio 
-Code menu looks like:
+> In order to install VSCode, simply go to [the VSCode website](https://code.visualstudio.com/Download) 
+> and follow the instructions. This is how the Visual Studio Code menu looks like:
 
 ![](images/Screenshot(9).png)
 
@@ -15,10 +15,10 @@ Code menu looks like:
 ```
 ssh cs15lsp22zz@ieng6.ucsd.edu
 ```
-> In general, the text before the '@' is the user while the text after the '@' is the host server.
-Then, you will be 
-prompted to enter a password. You may need to find your password or create a new one. [Here is where you can look 
-up your UCSD account](https://sdacs.ucsd.edu/~icc/index.php). After successfully logging in, your screen may look like this:
+> In general, the text before the '@' is the user while the text after the '@' is the host server. 
+Then, you will be prompted to enter a password. You may need to find your password or create a new one. 
+[Here is where you can look up your UCSD account](https://sdacs.ucsd.edu/~icc/index.php). After 
+successfully logging in, your screen may look like this:
 
 ![](images/unnamed1.png)
 
@@ -53,7 +53,8 @@ up your UCSD account](https://sdacs.ucsd.edu/~icc/index.php). After successfully
 
 ---
 
-> In order to properly test these methods, I will be using a file called WhereAmI.java which reveals location of the file location. This is the code for the program:
+> In order to properly test these methods, I will be using a file called WhereAmI.java which reveals
+the location of the file location. This is the code for the program:
 
 ```
 class WhereAmI {
@@ -84,10 +85,9 @@ class WhereAmI {
 
 ## Moving Files with scp
 
-> The scp command sends a copy of a file from the first user to the second user. You will first need to be logged 
-into the account of the first user. The following screenshot shows logging in to the host server and running the 
-WhereAmI program to show that the file has been copied and sent 
-to the host server.
+> The scp command sends a copy of a file from the first user to the second user. You will first need 
+to be logged into the account of the first user. The following screenshot shows logging in to the host 
+server and running the WhereAmI program to show that the file has been copied and sent to the host server.
 
 ![](images/unnamed2.png)
 
@@ -95,8 +95,9 @@ to the host server.
 
 ## Setting an SSH Key
 
-> Enabling this feature allows you to not have to enter in a password every time you log into the host server using the ssh 
-command. Setting up an SSH key is quite complicated so refer to [the Lab 1 write up](images/Lab_1.pdf) for this.
+> Enabling this feature allows you to not have to enter in a password every time you log into the host
+server using the ssh command. Setting up an SSH key is quite complicated so refer to [the Lab 1 write up](images/Lab_1.pdf) 
+for this, starting on page 9.
 
 >  As shown here, logging in using the ssh command no longer requires a password:
 

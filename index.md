@@ -3,6 +3,10 @@
 
 [Lab Report 1](https://jwyamaguchi.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
+[Lab Report 2](lab-report-2-week-4.html) 
+
+[Lab Report 2](https://jwyamaguchi.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
+
 ![](images/unnamed1.png)
 
 ## Cookie

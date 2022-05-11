@@ -30,9 +30,9 @@
 
 ![](images/report3_5.png)
 
-![](images/report3_6.png)
-
 > With it set up, the following image demonstrates creating a new test file on the remote server, showing the directory, and then committing and pushing the new file.
+
+![](images/report3_6.png)
 
 > [this is the link to the resulting commit.](https://github.com/jwyamaguchi/markdown-parser/commit/3aefe5114b09b975f0ebab9bfb380dc7ae354e54)
 
